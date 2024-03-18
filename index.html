@@ -269,8 +269,6 @@ Após o relato, Holmes se inclina para trás na sua cadeira, entrelaçando os de
 
 &quot;Você tem mais alguma informação que gostaria de partilhar comigo?&quot;
 
-(if:(history:) contains &quot;Sobretudo&quot; and does not contain &quot;H-Sobretudo&quot;)[\
-[[Falar sobre o sobretudo-&gt;H-Sobretudo]]
 ]\
 (if:(history:) contains &quot;Relógio&quot; and does not contain &quot;H-Relógio&quot;)[\
 [[Falar sobre o relógio-&gt;H-Relógio]]
@@ -288,9 +286,7 @@ Após o relato, Holmes se inclina para trás na sua cadeira, entrelaçando os de
 (if:(history:) contains &quot;Relógio&quot; and does not contain &quot;H-Relógio&quot;)[\
 [[Falar sobre o relógio-&gt;H-Relógio]]
 ]\
-(if:(history:) contains &quot;Marca no pescoço&quot; and does not contain &quot;H-Marca no pescoço&quot;)[\
-[[Falar sobre o relógio-&gt;H-Marca no pescoço]]
-]\
+
 [[Não, é só isso-&gt;Diretório]]</tw-passagedata><tw-passagedata pid="16" name="Sem informações" tags="" position="800,525" size="100,100">Sem mais informações, o Sr. Holmes não poderá te ajudar. Talvez seja melhor recomeçar a investigação desde o início, tentando coletar mais pistas para o caso.
 
 (replace:?sidebar)[(icon-restart: )]\
@@ -330,9 +326,6 @@ O detetive continua analisando o relógio, quando identifica o código gravado n
 
 (if:(history:) contains &quot;Sobretudo&quot; and does not contain &quot;H-Sobretudo&quot;)[\
 [[Falar sobre o sobretudo-&gt;H-Sobretudo]]
-]\
-(if:(history:) contains &quot;Relógio&quot; and does not contain &quot;H-Relógio&quot;)[\
-[[Falar sobre o relógio-&gt;H-Relógio]]
 ]\
 (if:(history:) contains &quot;Marca no pescoço&quot; and does not contain &quot;H-Marca no pescoço&quot;)[\
 [[Falar sobre o relógio-&gt;H-Marca no pescoço]]
