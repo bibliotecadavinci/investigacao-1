@@ -344,15 +344,19 @@ Você está imerso nos pensamentos, repassando toda a informação que coletou. 
 (if:(history:)contains &quot;Mostrar relógio ao penhorista&quot; and does not contain &quot;Escritório do Telégrafo&quot;)[\
 Você se lembra que precisa entrar em contato com a Casa Ramsdens, para descobrir a identidade do dono do relógio. Mas a casa de penhores fica em Derby, uma viagem muito longa pra se fazer. Você decide então ir até o &#39;&#39;Escritório do Telégrafo&#39;&#39;, na região CL, para poder enviar um telegrama para a Casa Ramsdens. O escritório fica perto do Hospital St. Bartholomew, então não deve ser difícil encontrá-lo no mapa.
 ]\
+
 (if:(history:) contains &quot;Encerrar conversa com Edgar&quot;)[\
 Após coletar tanta informação com o jornalista, você já sabe quem era a vítima e o que ela pretendia fazer. Os planos de Edward poderiam colocá-lo em perigo se alguém os descobrisse. E provavelmente foi isso que aconteceu. Alguem soube o que Edward iria fazer e tomou as providências para calá-lo.
 ]\
+
 (if:(history:) contains &quot;História de Edward&quot;)[\
 Você se lembra de Edgar mencionar o alto membro da Sociedade Privada de Amantes de Ferrovias, com quem Edward conversou. Talvez você conseguise falar com essa pessoa na sede da Sociedade Privada.
 ]\
+
 (if:(history:) contains &quot;Por que festa&quot;)[\
 Visitar o local da festa de inaugiração da Grande Linha Anglo-Escocesa talvez possa trazer alguma nova informação.
 ]\
+
 (if:(history:) contains &quot;Holborn&quot; and contains &quot;Hotel St. Pancras&quot; and contains &quot;Encerrar conversa com Edgar&quot;)[\
 Você está perto do final dessa investigação. Chegou a hora de chamar os policiais da Scotland Yard e atrás de William Sutherland e de Edgar Newmarch. Está quase na hora da festa no Hotel St. Pancras. O jeito vai ser efeturar a prisão lá mesmo. Será um alvoroço, mas temos que agir.
 
@@ -543,7 +547,7 @@ Você atravessa as grandes portas de madeira, adentrando um saguão espaçoso, o
 
 Você respira fundo, reunindo sua confiança antes de responder. &quot;Bom dia, eu preciso falar com Edgar Newmarch. Vim em resposta ao anúncio dele no jornal.&quot;
 
-(if:(history:) contains &quot;Sobretudo&quot;)[\
+(if:(history:) contains &quot;Sobretudo&quot; and does not contain &quot;Encerrar conversa com Edgar&quot;)[\
 O atendente acena com compreensão, olhando rapidamente para um registro em papel sob o balcão. &quot;Um momento, por favor,&quot; ele diz, enquanto folheia algumas páginas. Após uma breve pausa, ele levanta os olhos novamente, seu sorriso um pouco mais amplo.
 
 &quot;Claro, eu posso encaminhá-lo até a sala do Sr. Newmarch. Ele está esperando por respostas ao seu anúncio, então ficará satisfeito em recebê-lo. Por favor, acompanhe-me.&quot;
